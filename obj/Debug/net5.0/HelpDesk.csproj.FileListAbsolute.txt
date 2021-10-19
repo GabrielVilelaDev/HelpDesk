@@ -1,0 +1,144 @@
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\appsettings.json
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.exe
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.deps.json
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.runtimeconfig.json
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.runtimeconfig.dev.json
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\ref\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.Views.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\HelpDesk.Views.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.csprojAssemblyReference.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\staticwebassets\HelpDesk.StaticWebAssets.Manifest.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\staticwebassets\HelpDesk.StaticWebAssets.xml
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\scopedcss\bundle\HelpDesk.styles.css
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.input.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.output.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorCoreGenerate.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorTargetAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorTargetAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.Views.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\ref\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\obj\Debug\net5.0\HelpDesk.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Humanizer.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\HelpDesk\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\appsettings.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.exe
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.deps.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.runtimeconfig.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.runtimeconfig.dev.json
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\ref\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.Views.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\HelpDesk.Views.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Humanizer.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.csprojAssemblyReference.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.AssemblyInfoInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.AssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.csproj.CoreCompileInputs.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\staticwebassets\HelpDesk.StaticWebAssets.Manifest.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\staticwebassets\HelpDesk.StaticWebAssets.xml
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\scopedcss\bundle\HelpDesk.styles.css
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.input.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.output.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorCoreGenerate.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorTargetAssemblyInfo.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorTargetAssemblyInfo.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.Views.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.csproj.CopyComplete
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\ref\HelpDesk.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.pdb
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.genruntimeconfig.cache
