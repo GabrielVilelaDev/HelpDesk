@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using HelpDesk.Repositories;
 
 namespace HelpDesk
 {
@@ -32,10 +33,13 @@ namespace HelpDesk
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(connectionString)
             );
+
+            services.AddTransient<IDataService, DataService>();
+            services.AddTransient<ITicketRepository, TicketRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, IServiceProvider serviceProvider)
         {
             if (env.IsDevelopment())
             {
@@ -60,6 +64,9 @@ namespace HelpDesk
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            serviceProvider.GetService<IDataService>()
+                .InicializaDB();
         }
     }
 }

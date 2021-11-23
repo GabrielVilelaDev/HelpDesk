@@ -1,4 +1,5 @@
 ﻿using HelpDesk.Models;
+using HelpDesk.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -9,18 +10,18 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Controllers
 {
-    public class HomeController : Controller
+    public class ListarTicketsController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly ITicketRepository ticketRepository;
+        public ListarTicketsController(ITicketRepository ticketRepository)
         {
-            _logger = logger;
+            this.ticketRepository = ticketRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var ListaTicket = ticketRepository.Selecionar();
+            return View(ListaTicket);
         }
 
         public IActionResult Privacy()
