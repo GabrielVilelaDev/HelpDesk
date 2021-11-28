@@ -12,9 +12,10 @@ namespace HelpDesk.Models
         {
 
         }
-        public Ticket(string assunto, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel)
+        public Ticket(string assunto, string descricao, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel)
         {
             this.assunto = assunto;
+            this.descricao = descricao;
             this.categoria = categoria;
             this.dataAbertura = dataAbertura;
             this.criador = usuario;
@@ -25,6 +26,8 @@ namespace HelpDesk.Models
 
         [Required]
         public string assunto { get; set; }
+        [Required]
+        public string descricao { get; set; }
         [Required]
         public Categoria categoria { get; set; }
         [Required]

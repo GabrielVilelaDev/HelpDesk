@@ -17,9 +17,9 @@ namespace HelpDesk.Repositories
         }
 
         #region "Métodos CRUD"
-        public void Inserir(string assunto, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel)
+        public void Inserir(string assunto, string descricao, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel)
         {
-            Ticket ticket = new Ticket(assunto, categoria, dataAbertura, usuario, prioridade, status, responsavel);
+            Ticket ticket = new Ticket(assunto, descricao, categoria, dataAbertura, usuario, prioridade, status, responsavel);
             context.Set<Ticket>().Add(ticket);
             context.SaveChanges();
         }
@@ -36,6 +36,20 @@ namespace HelpDesk.Repositories
                 .Include(b => b.prioridade)
                 .ToList();
             return lista;
+        }
+
+        public Ticket SelecionarFiltrado(int id)
+        {
+            var ticket = context.Set<Ticket>().Where(b => b.Id == id)
+                .Include(b => b.categoria)
+                .Include(b => b.criador)
+                .Include(b => b.criador.credencial)
+                .Include(b => b.responsavel)
+                .Include(b => b.responsavel.credencial)
+                .Include(b => b.status)
+                .Include(b => b.prioridade)
+                .ToList();
+            return ticket.FirstOrDefault();
         }
         #endregion
     }

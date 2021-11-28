@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using HelpDesk.Repositories;
+using HelpDesk.Repositories.Interfaces;
 
 namespace HelpDesk
 {
@@ -36,6 +37,12 @@ namespace HelpDesk
 
             services.AddTransient<IDataService, DataService>();
             services.AddTransient<ITicketRepository, TicketRepository>();
+            services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+            services.AddTransient<IPrioridadeRepository, PrioridadeRepository>();
+            services.AddTransient<IStatusChamadoRepository, StatusChamadoRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<ICredencialRepository, CredencialRepository>();
+            services.AddTransient<ISetorRepository, SetorRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -47,7 +54,7 @@ namespace HelpDesk
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/ListaTickets/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
@@ -62,7 +69,7 @@ namespace HelpDesk
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=ListaTickets}/{action=MeusTickets}/{id?}");
             });
 
             serviceProvider.GetService<IDataService>()

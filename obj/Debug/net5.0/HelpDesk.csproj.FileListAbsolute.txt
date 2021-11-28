@@ -127,8 +127,6 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.input.cache
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.TagHelpers.output.cache
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.RazorCoreGenerate.cache
-C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -142,3 +140,8 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\ref\HelpDesk.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.pdb
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\HelpDesk.genruntimeconfig.cache
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\ListaTickets\MeusTickets.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\PagedList.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\PagedList.Mvc.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\ListaTickets\VisualizarTicket.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\CriacaoTicket\CriarTicketController.cshtml.g.cs

@@ -130,6 +130,10 @@ namespace HelpDesk.Migrations
                     b.Property<DateTime>("dataAbertura")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("descricao")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("prioridadeId")
                         .HasColumnType("int");
 

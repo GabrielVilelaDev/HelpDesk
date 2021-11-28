@@ -19,16 +19,16 @@
             <div class="container-fluid d-flex flex-column p-0">
                 <!--Logo e título-->
                 <a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-kiss-wink-heart"></i></div>
-                    <div class="sidebar-brand-text mx-3"><span>Angola</span></div>
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="far fa-file-code"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Dá um Help</span></div>
                 </a>
                 <hr class="sidebar-divider my-0">
                 <!--Links-->
                 <ul class="navbar-nav text-dark" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="profile.html"><i class="fas fa-user"></i><span>Perfil</span></a></li>
-                    <li class="nav-item"><a class="nav-link active" href="table.html"><i class="fas fa-table"></i><span>Lista de Tickets</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html"><i class="icon-plus"></i><span>Novo Ticket</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i><span>Perfil</span></a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="ListaTickets" asp-action="MeusTickets"><i class="fas fa-table"></i><span>Lista de Tickets</span></a></li>
+                    <li class="nav-item"><a class="nav-link" asp-controller="CriacaoTicket" asp-action="CriarTicket"><i class="icon-plus"></i><span>Novo Ticket</span></a></li>
                     <li class="nav-item"></li>
                 </ul>
                 <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>

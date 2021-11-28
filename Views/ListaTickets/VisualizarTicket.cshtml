@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewData["Title"] = "Visualizar Ticket";
+}
+@model Ticket
+<div class="container-fluid text-start" style="text-align: left;">
+    <h3 class="text-dark mb-4">Ticket: #@Model.Id</h3>
+        <div class="col-xxl-7 offset-xxl-2 text-start" style="text-align: left;">
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <p class="text-primary m-0 fw-bold">Descrição do ticket</p>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3"><label class="form-label" for="address"><strong>Assunto:</strong></label><input class="form-control" disabled="" type="text" id="address" placeholder="@Model.assunto" name="address"></div>
+                        <div class="mb-3">
+                            <div class="col">
+                                <div class="mb-3">
+                                    <label class="form-label" for="city"><strong>Categoria:</strong></label><select class="form-select" disabled="">
+                                        <optgroup label="Categoria">
+                                            <option value="12" selected="">@Model.categoria.descricao</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="mb-3"><label class="form-label" for="city"><strong>Data de criação:</strong></label><input class="form-control" disabled="" type="text" id="city-7" placeholder="@Model.dataAbertura.Date" name="city"></div>
+                                <div class="mb-3"><label class="form-label" for="city"><strong>Criador:</strong></label><input class="form-control" disabled="" type="text" id="city-6" placeholder="@Model.criador.credencial.nome" name="city"></div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="city"><strong>Prioridade:</strong></label><select class="form-select" disabled="" >
+                                        <optgroup label="Prioridade">
+                                            <option value="12" selected="">@Model.prioridade.descricao</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="city"><strong>Status:</strong></label><select class="form-select" disabled="">
+                                        <optgroup label="Status">
+                                            <option value="14">@Model.status.descricao</option>
+                                        </optgroup>
+                                    </select>
+                                </div>
+                                <div class="mb-3"><label class="form-label" for="city"><strong>Responsável:</strong></label><input class="form-control" disabled="" type="text" id="city-4" placeholder="@Model.responsavel.credencial.nome" name="city"></div>
+                                <div class="mb-3"><label class="form-label" for="city"><strong>Descrição:</strong></label><textarea class="form-control" disabled="">@Model.descricao</textarea></div>
+                            </div>
+                        </div>
+                    </form><button class="btn btn-primary btn-sm">Editar</button>
+                </div>
+            </div>
+        </div>
+    </div>

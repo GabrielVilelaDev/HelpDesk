@@ -2,6 +2,7 @@
 using HelpDesk.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -10,21 +11,28 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Controllers
 {
-    public class ListarTicketsController : Controller
+    public class ListaTicketsController : Controller
     {
         private readonly ITicketRepository ticketRepository;
-        public ListarTicketsController(ITicketRepository ticketRepository)
+        public ListaTicketsController(ITicketRepository ticketRepository)
         {
             this.ticketRepository = ticketRepository;
         }
 
-        public IActionResult Index()
+        public IActionResult MeusTickets(int? pagina)
         {
+            int tamanhoPagina = 15;
+            int numeroPagina = pagina ?? 1;
             var ListaTicket = ticketRepository.Selecionar();
-            return View(ListaTicket);
+            return View(ListaTicket.ToPagedList(numeroPagina, tamanhoPagina));
         }
 
-        public IActionResult Privacy()
+        public IActionResult VisualizarTicket(int id)
+        {
+            return View(ticketRepository.SelecionarFiltrado(id));
+        }
+
+        public IActionResult NovoTicket()
         {
             return View();
         }
