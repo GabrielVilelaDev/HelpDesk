@@ -7,19 +7,23 @@ using HelpDesk.Models;
 
 namespace HelpDesk.Repositories
 {
-    public class CategoriaRepository : ICategoriaRepository
+    public class CategoriaRepository : BaseRepository<Categoria>, ICategoriaRepository
     {
-        private readonly ApplicationDbContext context;
-        public CategoriaRepository(ApplicationDbContext context)
+        public CategoriaRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
-        #region "Métodos CRUD"
 
+        #region "Métodos CRUD"
+        public IList<Categoria> Selecionar()
+        {
+            var lista = dbSet
+            .ToList();
+            return lista;
+        }
         public Categoria SelecionarFiltrado(int id)
         {
-            var categoria = context.Set<Categoria>().Where(b => b.Id == id)
+            var categoria = dbSet.Where(b => b.Id == id)
                 .ToList();
             return categoria.FirstOrDefault();
         }

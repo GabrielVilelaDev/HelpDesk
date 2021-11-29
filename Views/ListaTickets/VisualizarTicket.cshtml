@@ -8,7 +8,7 @@
         <div class="col-xxl-7 offset-xxl-2 text-start" style="text-align: left;">
             <div class="card shadow">
                 <div class="card-header py-3">
-                    <p class="text-primary m-0 fw-bold">Descrição do ticket</p>
+                    <p class="text-primary m-0 fw-bold color-red-pattern"><b>Descrição do ticket</b></p>
                 </div>
                 <div class="card-body">
                     <form>
@@ -25,7 +25,7 @@
                                 <div class="mb-3"><label class="form-label" for="city"><strong>Data de criação:</strong></label><input class="form-control" disabled="" type="text" id="city-7" placeholder="@Model.dataAbertura.Date" name="city"></div>
                                 <div class="mb-3"><label class="form-label" for="city"><strong>Criador:</strong></label><input class="form-control" disabled="" type="text" id="city-6" placeholder="@Model.criador.credencial.nome" name="city"></div>
                                 <div class="mb-3">
-                                    <label class="form-label" for="city"><strong>Prioridade:</strong></label><select class="form-select" disabled="" >
+                                    <label class="form-label" for="city"><strong>Prioridade:</strong></label><select class="form-select" disabled="">
                                         <optgroup label="Prioridade">
                                             <option value="12" selected="">@Model.prioridade.descricao</option>
                                         </optgroup>
@@ -42,7 +42,8 @@
                                 <div class="mb-3"><label class="form-label" for="city"><strong>Descrição:</strong></label><textarea class="form-control" disabled="">@Model.descricao</textarea></div>
                             </div>
                         </div>
-                    </form><button class="btn btn-primary btn-sm">Editar</button>
+                    </form><button class="btn btn-primary btn-sm"><i class="far fa-edit"></i></button>
+                    <button class="btn btn-primary btn-sm"><i class="far fa-share-square">&nbspDirecionar chamado</i></button>
                 </div>
             </div>
         </div>

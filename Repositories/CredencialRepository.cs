@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    public class CredencialRepository : ICredencialRepository
+    public class CredencialRepository : BaseRepository<Credencial>, ICredencialRepository
     {
-        private readonly ApplicationDbContext context;
-        public CredencialRepository(ApplicationDbContext context)
+        public CredencialRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-
+        public IList<Credencial> Selecionar()
+        {
+            var lista = dbSet
+            .ToList();
+            return lista;
+        }
         public Credencial SelecionarFiltrado(int id)
         {
-            var credencial = context.Set<Credencial>().Where(b => b.Id == id)
+            var credencial = dbSet.Where(b => b.Id == id)
                 .ToList();
             return credencial.FirstOrDefault();
         }

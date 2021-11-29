@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Novo Ticket";
+}
+@model Ticket
+
+<div class="col-xxl-7 offset-xxl-2 text-start" style="text-align: left;">
+    <div class="card shadow">
+        <div class="card-header py-3">
+            <p class="text-primary m-0 fw-bol color-red-pattern"><b>Descrição do ticket</b></p>
+        </div>
+        <div class="card-body">
+            <form asp-action="AberturaDeTicket" asp-antiforgery="true" method="post">
+                <div class="mb-3"><label class="form-label" for="address"><strong>Assunto:</strong></label><input class="form-control" asp-for="assunto" type="text" id="address" placeholder="Assunto"></div>
+                <div class="mb-3">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label class="form-label" for="city"><strong>Categoria:</strong></label><select class="form-select" asp-for="categoria.Id">
+                                <optgroup label="Categoria">
+                                    <option value="1" selected="">Acesso a notas (trabalhos/atividades)</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <div class="mb-3"><label class="form-label" for="city"><strong>Descrição:</strong></label><textarea class="form-control" asp-for="descricao"></textarea></div>
+                    </div>
+                </div>
+                <button class="btn btn-primary btn-sm" type="submit">Salvar</button>
+            </form>
+        </div>
+    </div>
+</div>

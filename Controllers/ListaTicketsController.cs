@@ -23,18 +23,13 @@ namespace HelpDesk.Controllers
         {
             int tamanhoPagina = 15;
             int numeroPagina = pagina ?? 1;
-            var ListaTicket = ticketRepository.Selecionar();
+            var ListaTicket = ticketRepository.Selecionar().OrderByDescending(b => b.Id);
             return View(ListaTicket.ToPagedList(numeroPagina, tamanhoPagina));
         }
 
         public IActionResult VisualizarTicket(int id)
         {
             return View(ticketRepository.SelecionarFiltrado(id));
-        }
-
-        public IActionResult NovoTicket()
-        {
-            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories.Interfaces
 {
-    public class SetorRepository : ISetorRepository
+    public class SetorRepository : BaseRepository<Setor>, ISetorRepository
     {
-        private readonly ApplicationDbContext context;
-        public SetorRepository(ApplicationDbContext context)
+        public SetorRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-
+        public IList<Setor> Selecionar()
+        {
+            var lista = dbSet
+            .ToList();
+            return lista;
+        }
         public Setor SelecionarFiltrado(int id)
         {
-            var setor = context.Set<Setor>().Where(b => b.Id == id)
+            var setor = dbSet.Where(b => b.Id == id)
                 .ToList();
             return setor.FirstOrDefault();
         }

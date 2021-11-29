@@ -6,7 +6,7 @@ namespace HelpDesk.Repositories
 {
     public interface ITicketRepository
     {
-        void Inserir(string assunto, string descricao, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel);
+        void Inserir(Ticket ticket);
 
         IList<Ticket> Selecionar();
         Ticket SelecionarFiltrado(int id);

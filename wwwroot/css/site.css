@@ -18,10 +18,23 @@ a {
     border-color: #b70b3d;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+.nav-pills .nav-link.active, .nav-pills .show .nav-link {
     color: #fff;
     background-color: #b70b3d;
     border-color: #b70b3d;
+}
+.paginacao-color, .paginacao-color:hover {
+    color: #b70b3d !important;
+}
+.paginacao-bg-color {
+    background-color: #b70b3d !important;
+    border-color:  #b70b3d !important;
+}
+.color-red-pattern {
+    color: #b70b3d !important;
+}
+.color-cinza-pattern {
+    color: #e3e6f0 !important;
 }
 
 /* Sticky footer styles

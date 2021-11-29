@@ -8,19 +8,24 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    public class UsuarioRepository : IUsuarioRepository
+    public class UsuarioRepository : BaseRepository<Usuario>, IUsuarioRepository
     {
-        private readonly ApplicationDbContext context;
-        public UsuarioRepository(ApplicationDbContext context)
+        public UsuarioRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-
+        public IList<Usuario> Selecionar()
+        {
+            var lista = dbSet
+            .Include(b => b.setor)
+            .Include(b => b.credencial)
+            .ToList();
+            return lista;
+        }
         public Usuario SelecionarFiltrado(int id)
         {
-            var usuario = context.Set<Usuario>().Where(b => b.Id == id)
+            var usuario = dbSet.Where(b => b.Id == id)
                 .Include(b => b.credencial)
                 .Include(b => b.setor)
                 .ToList();

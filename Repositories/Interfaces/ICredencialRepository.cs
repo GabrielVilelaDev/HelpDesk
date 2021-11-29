@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    interface ICredencialRepository
+    public interface ICredencialRepository
     {
         Credencial SelecionarFiltrado(int id);
+        IList<Credencial> Selecionar();
     }
 }

@@ -8,25 +8,21 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    public class TicketRepository : ITicketRepository
+    public class TicketRepository : BaseRepository<Ticket>, ITicketRepository
     {
-        private readonly ApplicationDbContext context;
-        public TicketRepository(ApplicationDbContext context)
+        public TicketRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-        public void Inserir(string assunto, string descricao, Categoria categoria, DateTime dataAbertura, Usuario usuario, Prioridade prioridade, StatusChamado status, Usuario responsavel)
+        public void Inserir(Ticket ticket)
         {
-            Ticket ticket = new Ticket(assunto, descricao, categoria, dataAbertura, usuario, prioridade, status, responsavel);
-            context.Set<Ticket>().Add(ticket);
+            dbSet.Add(ticket);
             context.SaveChanges();
         }
-
         public IList<Ticket> Selecionar()
         {
-            var lista = context.Set<Ticket>()
+            var lista = dbSet
                 .Include(b => b.categoria)
                 .Include(b => b.criador)
                 .Include(b => b.criador.credencial)
@@ -37,10 +33,9 @@ namespace HelpDesk.Repositories
                 .ToList();
             return lista;
         }
-
         public Ticket SelecionarFiltrado(int id)
         {
-            var ticket = context.Set<Ticket>().Where(b => b.Id == id)
+            var ticket = dbSet.Where(b => b.Id == id)
                 .Include(b => b.categoria)
                 .Include(b => b.criador)
                 .Include(b => b.criador.credencial)

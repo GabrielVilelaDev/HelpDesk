@@ -64,19 +64,19 @@
             <div class="row">
                 <div class="col">
                     <nav class="text-center d-lg-flex justify-content-lg-end dataTables_paginate paging_simple_numbers">
-                        <ul class="pagination">
+                        <ul class="pagination" >
                             @if (Model.PageNumber > 1)
                             {
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber-1 })" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = 1})">Primeira</a></li>
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber-1 })">@(Model.PageNumber-1)</a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber-1 })" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = 1})">Primeira</a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber-1 })">@(Model.PageNumber-1)</a></li>
 
                             }
                             else
                             {
                                 <li class="page-item disabled"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber-1 })" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
                             }
-                            <li class="page-item active"><a class="page-link" href="#">@Model.PageNumber</a></li>
+                            <li class="page-item active"><a class="page-link paginacao-bg-color" href="#">@Model.PageNumber</a></li>
                             @if (Model.PageNumber == Model.PageCount)
                             {
                                 <li class="page-item disabled"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber+1 })" aria-label="Next"><span aria-hidden="true">»</span></a></li>
@@ -84,9 +84,9 @@
                             }
                             else
                             {
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber+1 })">@(Model.PageNumber+1)</a></li>
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageCount})">Última</a></li>
-                                <li class="page-item"><a class="page-link" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber+1 })" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber+1 })">@(Model.PageNumber+1)</a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = Model.PageCount})">Última</a></li>
+                                <li class="page-item"><a class="page-link paginacao-color" href="@Url.Action("MeusTickets", new { pagina = Model.PageNumber+1 })" aria-label="Next"><span aria-hidden="true">»</span></a></li>
                             }
                         </ul>
                     </nav>

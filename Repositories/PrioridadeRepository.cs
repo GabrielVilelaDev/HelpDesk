@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    public class PrioridadeRepository : IPrioridadeRepository
+    public class PrioridadeRepository : BaseRepository<Prioridade>, IPrioridadeRepository
     {
-        private readonly ApplicationDbContext context;
-        public PrioridadeRepository(ApplicationDbContext context)
+        public PrioridadeRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-
+        public IList<Prioridade> Selecionar()
+        {
+            var lista = dbSet
+            .ToList();
+            return lista;
+        }
         public Prioridade SelecionarFiltrado(int id)
         {
-            var prioridade = context.Set<Prioridade>().Where(b => b.Id == id)
+            var prioridade = dbSet.Where(b => b.Id == id)
                 .ToList();
             return prioridade.FirstOrDefault();
         }

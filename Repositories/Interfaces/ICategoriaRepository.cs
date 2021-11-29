@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    interface ICategoriaRepository
+    public interface ICategoriaRepository
     {
         Categoria SelecionarFiltrado(int id);
+        IList<Categoria> Selecionar();
     }
 }

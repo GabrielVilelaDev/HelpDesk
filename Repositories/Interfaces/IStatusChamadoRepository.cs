@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    interface IStatusChamadoRepository
+    public interface IStatusChamadoRepository
     {
         StatusChamado SelecionarFiltrado(int id);
+        IList<StatusChamado> Selecionar();
     }
 }

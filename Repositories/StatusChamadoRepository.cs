@@ -7,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    public class StatusChamadoRepository : IStatusChamadoRepository
+    public class StatusChamadoRepository : BaseRepository<StatusChamado>, IStatusChamadoRepository
     {
-        private readonly ApplicationDbContext context;
-        public StatusChamadoRepository(ApplicationDbContext context)
+        public StatusChamadoRepository(ApplicationDbContext context) : base(context)
         {
-            this.context = context;
         }
 
         #region "Métodos CRUD"
-
+        public IList<StatusChamado> Selecionar()
+        {
+            var lista = dbSet
+            .ToList();
+            return lista;
+        }
         public StatusChamado SelecionarFiltrado(int id)
         {
-            var statusChamado = context.Set<StatusChamado>().Where(b => b.Id == id)
+            var statusChamado = dbSet.Where(b => b.Id == id)
                 .ToList();
             return statusChamado.FirstOrDefault();
         }

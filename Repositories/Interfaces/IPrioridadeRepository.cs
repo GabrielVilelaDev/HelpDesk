@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HelpDesk.Repositories
 {
-    interface IPrioridadeRepository
+    public interface IPrioridadeRepository
     {
         Prioridade SelecionarFiltrado(int id);
+        IList<Prioridade> Selecionar();
     }
 }

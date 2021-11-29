@@ -144,4 +144,13 @@ C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\PagedList.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\PagedList.Mvc.dll
 C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\ListaTickets\VisualizarTicket.cshtml.g.cs
-C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\CriacaoTicket\CriarTicketController.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\obj\Debug\net5.0\Razor\Views\CriacaoTicket\AberturaDeTicket.cshtml.g.cs
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\gabri\OneDrive\Área de Trabalho\Copia de segurança\HelpDesk\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
