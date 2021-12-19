@@ -14,16 +14,36 @@
                 <div class="mb-3">
                     <div class="col">
                         <div class="mb-3">
-                            <label class="form-label" for="city"><strong>Categoria:</strong></label><select class="form-select" asp-for="categoria.Id">
+                            <label class="form-label" for="city"><strong>Categoria:</strong></label><select class="form-select">
                                 <optgroup label="Categoria">
-                                    <option value="1" selected="">Acesso a notas (trabalhos/atividades)</option>
+                                    <option value="1" selected="">Acesso a notas (trabalhos/provas)</option>
+                                    <option value="2" selected="">Acesso a trabalhos/provas</option>
+                                    <option value="3" selected="">Acesso a contéudo</option>
                                 </optgroup>
                             </select>
                         </div>
-                        <div class="mb-3"><label class="form-label" for="city"><strong>Descrição:</strong></label><textarea class="form-control" asp-for="descricao"></textarea></div>
+                        <label class="form-label" for="city"><strong>Problema impacta prazo de entrega?</strong></label>
+                        @Html.DropDownList("t1", new List<SelectListItem> {
+                            new SelectListItem(){ Text="Sim", Value="1"},
+                            new SelectListItem(){ Text="Não", Value="0"}
+                            },
+                       "", new { @class = "form-select" })
+                        <label class="form-label" for="city"><strong>Problema impede de realizar um processo?</strong></label>
+                        @Html.DropDownList("t2", new List<SelectListItem> {
+                            new SelectListItem(){ Text="Sim", Value="1"},
+                            new SelectListItem(){ Text="Não", Value="0"}
+                            },
+                        "", new { @class = "form-select" })
+                        <label class="form-label" for="city"><strong>Problema permite realizar tarefa de maneira paleativa?</strong></label>
+                        @Html.DropDownList("t3", new List<SelectListItem> {
+                            new SelectListItem(){ Text="Sim", Value="1"},
+                            new SelectListItem(){ Text="Não", Value="0"}
+                            },
+                        "", new { @class = "form-select" })
+                        <div class="mb-3"><label class="form-label" for="city"><strong>Descrição:</strong></label><textarea id="descricao" class="form-control" asp-for="descricao"></textarea></div>
                     </div>
                 </div>
-                <button class="btn btn-primary btn-sm" type="submit">Salvar</button>
+                <button class="btn btn-primary btn-sm" type="submit" onclick="obtemPrioridade()">Salvar</button>
             </form>
         </div>
     </div>

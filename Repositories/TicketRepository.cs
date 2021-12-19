@@ -20,6 +20,12 @@ namespace HelpDesk.Repositories
             dbSet.Add(ticket);
             context.SaveChanges();
         }
+        public void AtualizarResponsavel(Ticket ticket, Usuario usuario)
+        {
+            ticket.responsavel = usuario;
+            dbSet.Update(ticket);
+            context.SaveChanges();
+        }
         public IList<Ticket> Selecionar()
         {
             var lista = dbSet

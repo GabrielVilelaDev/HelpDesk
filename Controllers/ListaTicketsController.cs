@@ -31,6 +31,10 @@ namespace HelpDesk.Controllers
         {
             return View(ticketRepository.SelecionarFiltrado(id));
         }
+        public IActionResult DirecionaChamado(int id)
+        {
+            return RedirectToAction("AlteraResponsavel", "CriacaoTicket", new { id = id });
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

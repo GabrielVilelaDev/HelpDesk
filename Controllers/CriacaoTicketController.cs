@@ -8,6 +8,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.TagHelpers;
 using HelpDesk.Repositories.Interfaces;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using HelpDesk.Services;
 
 namespace HelpDesk.Controllers
 {
@@ -48,18 +50,28 @@ namespace HelpDesk.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AberturaDeTicket(Ticket ticket)//recebe um formulário do tipo ticket em um POST
+        public IActionResult AberturaDeTicket(Ticket ticket, int t1, int t2, int t3)//recebe um formulário do tipo ticket em um POST
         {
             //Seta os atributos implícitos
             ticket.categoria = categoriaRepository.SelecionarFiltrado(1);
             ticket.dataAbertura = DateTime.Today;
-            ticket.criador = usuarioRepository.SelecionarFiltrado(1);
-            ticket.prioridade = prioridadeRepository.SelecionarFiltrado(1);
+            ticket.criador = usuarioRepository.SelecionarFiltrado(2);
+            ticket.prioridade = prioridadeRepository.SelecionarFiltrado(DefinicaoPrioridade.ObtemPrioridade(t1==1 ? 5 : 0,
+                t2==1 ? 3 : 0,
+                t3==1 ? -2 : 2));
             ticket.status = statusChamadoRepository.SelecionarFiltrado(1);
             ticket.responsavel = usuarioRepository.SelecionarFiltrado(1);
             ticket.categoria = categoriaRepository.SelecionarFiltrado(1);
             ticketRepository.Inserir(ticket);
             return RedirectToAction("VisualizarTicket", "ListaTickets", new { id = ticket.Id });
+        }
+
+        public IActionResult AlteraResponsavel(int id)
+        {
+            var ticket = ticketRepository.SelecionarFiltrado(id);
+            ticketRepository.AtualizarResponsavel(ticket,
+                usuarioRepository.SelecionarFiltrado(3));
+            return RedirectToAction("VisualizarTicket", "ListaTickets", new { id = id });
         }
     }
 }
